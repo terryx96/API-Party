@@ -7,9 +7,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>API Party ;)</h1>
+        <div className = 'App-header'>
+        <h3>Aint no party like an API party</h3>
+          <h1>API Party ;)</h1>
+        </div>
 
-        <ul>
+        <ul className = 'navLinks'>
           <li>
             <NavLink to="/github">GitHub</NavLink>
           </li>
